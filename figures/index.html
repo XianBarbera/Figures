@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometric Figures</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>
+            Geometric Figures
+        </h1>
+    </header>
+    <div class="figures">
+
+        <div class="square">
+            <h1 id="squareValue">0</h1>
+            <img src="https://cdn.thinglink.me/api/image/808413126176276481/1024/10/scaletowidth/0/0/1/1/false/true?wait=true" alt="square">
+            <h2>SQUARE</h2>
+            <form>
+                <label for="SquareInput">
+     </label>
+                <div class="input-sides">
+                    <h3>Sides</h3>
+                    <input id="SquareInput" type="number">
+                </div>
+                <button type="button" onclick="calculateSquarePerimeter()">
+            PERIMETER
+            </button>
+                <button type="button" onclick="calculateSquareArea()">
+             AREA
+            </button>
+            </form>
+        </div>
+        <div class="triangle">
+            <h1 id="triangleValue">0</h1>
+            <form>
+                <label for="TriangleInput">
+              </label>
+                <img src="https://image.pngaaa.com/678/992678-middle.png" alt="triangle">
+                <h2>TRIANGLE</h2>
+                <h3>Sides</h3>
+                <div class="perimeter">
+                    <h4>Write the three values separated by commas</h4>
+                    <input id="TriangleInputPerimeter" type="text">
+                    <button type="button" onclick="calculatePerimeterTriangle()">
+                    PERIMETER 
+                  </button>
+                </div>
+                <div class="area">
+                    <h4>Write the two values separated by commas</h4>
+                    <input id="TriangleInputArea" type="text">
+                    <button type="button" onclick="calculateAreaTriangle()">
+                    AREA
+                  </div>
+        </button>
+            </form>
+            </div>
+            <div class="circle">
+                <h1 id="circleValue">0</h1>
+                <img src="https://img2.freepng.es/20180720/pgq/kisspng-ball-three-dimensional-space-3d-modeling-3d-comput-teeter-5b51f207b0c6d1.2250104315320970317241.jpg" alt="circle">
+                <h2>CIRCLE</h2>
+                <form>
+                    <label for="CircleInput">
+                     </label>
+                    <div class="input-sides">
+                        <h3>Sides</h3>
+                        <input id="CircleInput" type="number">
+                    </div>
+                    <button type="button" onclick="calculateCirclePerimeter()">
+                    PERIMETER
+                      </button>
+                    <button type="button" onclick="calculateCircleArea()">
+                    AREA
+                  </button>
+                </form>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="/figures.js"></script>
+</body>
+
+</html>
